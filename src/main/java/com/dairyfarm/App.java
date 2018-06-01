@@ -20,13 +20,12 @@ public class App
 {
     public static void main( String[] args )
     {
-//        System.out.println( "Hello World!" );
 
         SpringApplication.run(App.class, args);
 
     }
 
-//    @Bean
+//  @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx)
     {
         return args -> {
